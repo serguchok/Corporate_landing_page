@@ -1,0 +1,255 @@
+header {
+    background: url("../images/fgh.jpg")center top no-repeat;
+    min-height: 970px;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 220px;
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+
+.header_icon_play {
+    margin-bottom: 35px;
+}
+
+.header_icon_play i {
+    cursor: pointer;
+}
+
+.header-btn {
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 15px 75px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header-btn:hover {
+    background-color: #9a3434;
+    color: #fff;
+}
+
+.other {
+    padding-left: 330px;
+}
+
+.title-features {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fb8686;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #717171;
+}
+
+.b {}
+
+.top-table {
+    display: table;
+    width: 100%;
+}
+
+.other {
+    width: 50%;
+}
+
+.other .title-features {
+    margin-top: 100px;
+}
+
+.other .info {
+    width: 52%;
+}
+
+.top-cell {
+    display: table-cell;
+}
+
+.rectangle {
+    background: #ececec url("../images/bg-right.png") left bottom no-repeat;
+    overflow: hidden;
+    height: 600px;
+    width: 23%;
+}
+
+.pen img {
+    margin-left: ;
+}
+
+.rearures {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.overlay {
+    background-color: #f6f5f3;
+}
+
+
+/*.earphqones::before {
+            /*content: "";
+            position: absolute;
+            top: 0;
+            left: 150px;
+            width: 300px;
+            height: 250px;
+            background: url("../images/Earp.png") center top no-repeat;
+            background-position: 110px -35px;*/
+
+
+}
+.blok-features {
+    margin-top: 80px;
+}
+.cof {
+    text-align: right;
+    margin-top: 80px;
+}
+.laptop {
+    /*position: relative;*/
+    
+    width: 600px;
+    height: 550px;
+    background: #ffffff;
+    top: 0px;
+    right: 14px;
+    border-bottom: 550px solid #fb8686;
+    border-right: 500px solid transparent;
+}
+.laptop::before {
+    content: "";
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    width: 630px;
+    height: 367px;
+    background: url("../images/macbook.png");
+    background-position: 0 0px;
+}
+.apple {
+    width: 25%;
+    margin-top: 135px;
+    margin-left: 185px;
+}
+.team-overlay {
+    background: #22232a url("../images/Group.jpg") center top no-repeat;
+}
+h4 {
+    font-size: 22px;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+}
+.section-team {
+    margin-top: 110px;
+}
+.section-team p {
+    color: #ff6d6d;
+    margin-top: 10px;
+}
+.logo {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 110px;
+    margin-bottom: 95px;
+}
+.logo img {
+    margin-right: 85px;
+}
+.logo img:nth-child(5) {
+    margin-right: 0;
+}
+.browser {
+    margin-top: 125px;
+}
+.info-browser {
+    width: 650px;
+    margin: 0 auto;
+}
+.bg-form {
+    background-color: #323969;
+    color: #fff
+}
+.title-form {
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+.form-control {
+    margin-right: 2rem;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    background-color: #464c77;
+    font-size: 16px;
+    line-height: 75px;
+    color: #ffffff;
+}
+.form-control:focus {
+    border: 2px solid #ff6d6d;
+}
+.form-btn {
+    background-color: #ff6d6d;
+    padding: 9px 90px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.bg-form .info {
+    margin-top: 50px;
+    color: #a8aabc;
+    margin-bottom: 80px;
+}
+.footer-title {
+    font-size: 27px;
+    line-height: 33px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.footer-info {
+    line-height: 25px;
+}
+.start::before {
+    content: "";
+    position: absolute;
+    top: 54px;
+    width: 100px;
+    height: 57px;
+    background: url("../images/Start%20Ex.png") center top no-repeat;
+    background-position: 58px 10px;
+}
+.support {
+    width: 10%;
+}
+.about {
+    width: 13%;
+}
+.foot {
+    margin-right: 50px
+}
+.castom-footer input {
+    background-color: #f6f6f6;
+}

@@ -1,0 +1,44 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1154px) {
+    .form-btn {
+        margin-top: 30px;
+        margin-right: 12px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {
+    .apple {
+        width: 80%;
+    }
+    .apple .info {
+        width: 70%;
+    }
+    .form-control {
+        margin-top: 30px;
+    }
+    .form-btn {
+        margin-top: 30px;
+    }
+    .bot-med {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .apple {
+        width: 80%;
+    }
+    .apple .info {
+        width: 70%;
+    }
+    .browser img {
+        width: 765px;
+    }
+    .blok-features h3 {
+        font-size: 30px;
+    }
+}
