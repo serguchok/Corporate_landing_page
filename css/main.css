@@ -132,32 +132,15 @@ h2 {
     margin-top: 80px;
 }
 .laptop {
-    /*position: relative;*/
-    
-    width: 600px;
-    height: 550px;
-    background: #ffffff;
-    border-bottom: 550px solid #fb8686;
-    border-right: 500px solid transparent;
+    background: #fff url("../images/bg-left2.png") right bottom no-repeat;
 }
 .laptop img {
-    margin-top: 100px;
     margin-left: 70px;
-}
-
-/*.laptop::before {
-    content: "";
-    position: absolute;
-    top: 85px;
-    left: 40px;
-    width: 630px;
-    height: 367px;
-    background: url("../images/macbook.png");
-    background-position: 0 0px;*/
-
+    margin: 80px 0;
 }
 .apple {
-    margin-top: 30px;
+    margin-top: 135px;
+    width: 25%;
 }
 .team-overlay {
     background: #22232a url("../images/Group.jpg") center top no-repeat;
@@ -165,8 +148,7 @@ h2 {
 h4 {
     font-size: 22px;
     line-height: 50px;
-    font-family: "Raleway",
-    sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #ffffff;
 }
 .section-team {

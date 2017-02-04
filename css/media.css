@@ -8,6 +8,13 @@
     .other .info {
         width: 80%;
     }
+    .apple {
+        width: 40%;
+    }
+    .laptop img {
+        width: 510px;
+        height: 267px;
+    }
 }
 
 
@@ -15,10 +22,23 @@
 
 @media only screen and (max-width: 991px) {
     .apple {
-        /*width: 80%;*/
+        margin-top: 30px;
+    }
+    .apple h2 {
+        font-size: 2em;
+        line-height: 35px;
+        margin-bottom: 10px;
     }
     .apple .info {
         /*width: 70%;*/
+    }
+    .laptop img {
+        width: 350px;
+        height: 187px;
+        margin: 50px 0;
+    }
+    .info-browser {
+        width: 80%;
     }
     .form-control {
         margin-top: 30px;
@@ -38,14 +58,22 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .note {
+        position: relative;
+    }
     .apple {
-        width: 80%;
+        position: absolute;
+        bottom: 95px;
+        left: 110px;
+        width: 60%;
     }
-    .apple .info {
-        width: 70%;
+    .apple h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
     }
-    .laptop {
-        width: 100%;
+    .laptop img {
+        width: 610px;
+        height: 367px;
     }
     .browser img {
         width: 100%;
